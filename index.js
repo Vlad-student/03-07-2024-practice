@@ -98,15 +98,15 @@ console.groupEnd();
 console.group('11 task')
 // 11) Напишіть код, який перевіряє чи є число, яке ввів користувач, в масиві numbers, якщо є - виводить рядок "Ваше число є в масиві", якщо не має повторює запит на введення числа.
 
-const numbers = [5, 10, 15, 20, 25, 30, 35];
-while (true) {
-    let userInputNumber = prompt('Enter number');
-    if (numbers.includes(Number(userInputNumber))) {
-        console.log('Ваше число є в масиві');
-        break;
-      } else {
-        console.log(' Спробуйте ще раз');
-      }
-}
+// const numbers = [5, 10, 15, 20, 25, 30, 35];
+// while (true) {
+//     let userInputNumber = prompt('Enter number');
+//     if (numbers.includes(Number(userInputNumber))) {
+//         console.log('Ваше число є в масиві');
+//         break;
+//       } else {
+//         console.log(' Спробуйте ще раз');
+//       }
+// }
 console.groupEnd();
 
